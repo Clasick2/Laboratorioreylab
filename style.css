@@ -1,0 +1,95 @@
+/******************************************************************************
+JOSE RICARDO LUNA HERNANDEZ UTT
+******************************************************************************/
+
+/** tipo de letra de la pagina web **/
+
+body {
+  margin: 0em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/** agrega varios tipos de letra para darle variedad de vision al sitio web **/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+/** configuracion de la primer barra de opciones  **/
+
+.cover {
+  color: black;
+  height: 430px;
+  background-image: url(https://cdn.glitch.me/346ff080-a2dd-4aa5-bc85-6591e50a5103%2Fimage0.jpeg?v=1638436920941);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0.1, 0.1);
+  background-blend-mode: darken;
+}
+
+/** configuracion del tamaño de la imagen principal de fondo  **/
+
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+
+/** crea polarizacion en la portada principal para darle enfasis al REY-LAB justificado y principal **/
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/** configura el tamaño y la altura del carrussel de 4 promociones, y cambia la flexibilidad para adecuarlo en cualquier tipo de pantalla  **/
+
+.card-title {
+  min-height: 3rem;
+}
+
+.card-text {
+  min-height: 10rem;
+}
+
+.product-stripe {
+  overflow-x: scroll;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.stripe-container {
+  display: flex;
+}
+
+.stripe-container .card {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+/** acomoda el mapa justificado y dale flexibilidad para poder adecuarse a cualquier tipo de pantalla **/
+
+.responsive-iframe {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  width: 100;
+  padding-top: 56.25%;
+  background-size: cover;
+  background-position: center;
+}
